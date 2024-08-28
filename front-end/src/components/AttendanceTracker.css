@@ -1,0 +1,40 @@
+/* src/components/AttendanceTracker.css */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.form input {
+  padding: 10px;
+  margin-right: 10px;
+  width: calc(100% - 120px);
+}
+
+.form button {
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+.attendance-list {
+  margin-top: 20px;
+}
+
+.attendance-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
