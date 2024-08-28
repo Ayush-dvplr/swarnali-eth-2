@@ -114,18 +114,6 @@ Go to the project directory
   cd Eth-Ass2
 ```
 
-Go to the blockchain directory
-
-```bash
-  cd blockchain
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
 Go to the frontend directory from another terminal
 
 ```bash
@@ -138,23 +126,15 @@ Install dependencies
   npm install
 ```
 
-Start the blockchain node from terminal which is in blockchain directory
-
-```bash
-  npx hardhat node
-```
-
-Start one more terminal in blockchain directory
-
-```bash
-  npx hardhat run --network localhost scripts/deploy.js
-```
-
 Start frontend from the terminalin frontend directory
 
 ```bash
   npm start
 ```
+
+## Screenshots
+
+![App Screenshot](https://res.cloudinary.com/dsprifizw/image/upload/v1724831753/Screenshot_2024-08-28_132050_ahxwqs.png)
 
 ## Lessons Learned
 
